@@ -39,6 +39,7 @@ end;
 procedure TForm1.FormShow(Sender: TObject);
 begin
  ShowMessage('Hola Mundo!!!');
+ close;
 end;
 
 end.

@@ -9,8 +9,10 @@ uses
 type
   TForm1 = class(TForm)
     btnCerrar: TButton;
+    btnSaludar: TButton;
     procedure FormShow(Sender: TObject);
     procedure btnCerrarClick(Sender: TObject);
+    procedure btnSaludarClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -27,6 +29,11 @@ implementation
 procedure TForm1.btnCerrarClick(Sender: TObject);
 begin
  close;
+end;
+
+procedure TForm1.btnSaludarClick(Sender: TObject);
+begin
+ ShowMessage('Saludos nuevamente.');
 end;
 
 procedure TForm1.FormShow(Sender: TObject);

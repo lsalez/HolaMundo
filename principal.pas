@@ -1,4 +1,9 @@
 unit principal;
+{
+Comentarios sobre la versión
+
+
+}
 
 interface
 
